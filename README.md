@@ -32,19 +32,21 @@ npm run format
 
 ## 项目结构
 
-src/ 
-├── api/ # API 接口封装 
-├── assets/ # 静态资源 
-├── components/ # 组件 
-│ ├── chat/ # 聊天相关组件（输入框、操作面板、大纲面板） 
-│ ├── common/ # 通用组件（加载动画、步骤指示器） 
-│ └── layout/ # 布局组件（侧边栏） 
-├── composables/ # 组合式函数 
-├── router/ # 路由配置 
-├── utils/ # 工具函数 
-├── views/ # 页面视图 
-├── App.vue # 根组件 
+```
+src/
+├── api/ # API 接口封装
+├── assets/ # 静态资源
+├── components/ # 组件
+│ ├── chat/ # 聊天相关组件（输入框、操作面板、大纲面板）
+│ ├── common/ # 通用组件（加载动画、步骤指示器）
+│ └── layout/ # 布局组件（侧边栏）
+├── composables/ # 组合式函数
+├── router/ # 路由配置
+├── utils/ # 工具函数
+├── views/ # 页面视图
+├── App.vue # 根组件
 └── main.ts # 入口文件
+```
 
 ## 核心功能
 
