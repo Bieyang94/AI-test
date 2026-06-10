@@ -86,7 +86,7 @@ curl -X POST "http://127.0.0.1:8000/file/generateXmind?num=1" -o outline.xmind
 curl -X POST "http://127.0.0.1:8000/file/generateCsv?num=1" -o testcase.csv
 
 ## 📁 项目结构
-
+```
 AI-test/ 
 ├── app/ 
 │ ├── core/ # 核心业务逻辑 
@@ -125,7 +125,7 @@ AI-test/
 ├── .env # 环境变量 
 ├── pyproject.toml # 项目依赖 
 └── uv.lock # 依赖锁文件
-
+```
 ## 📄 License
 
 Public
