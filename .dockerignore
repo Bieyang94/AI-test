@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+.git/
+.gitignore
+.env
+*.env
+.DS_Store
+.venv/
+app/service/server/upload_files/
+app/service/server/debug_output/
+test skills/
+*.md
